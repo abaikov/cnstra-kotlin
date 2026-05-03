@@ -101,7 +101,7 @@ The current target is JVM 17 bytecode, with tests running through Kotlin/JUnit a
 The core artifact is configured for Maven Central:
 
 ```text
-io.github.abaikov:cnstra-core:<version>
+io.github.abaikov:cnstra:<version>
 ```
 
 Local verification:

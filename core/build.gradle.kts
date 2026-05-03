@@ -36,7 +36,7 @@ kotlin {
 mavenPublishing {
     coordinates(
         groupId = project.group.toString(),
-        artifactId = "cnstra-core",
+        artifactId = "cnstra",
         version = project.version.toString(),
     )
 
@@ -46,7 +46,7 @@ mavenPublishing {
     }
 
     pom {
-        name.set("CNStra Kotlin Core")
+        name.set("CNStra")
         description.set("Kotlin/JVM port of CNStra workflow orchestration engine")
         inceptionYear.set("2026")
         url.set("https://github.com/abaikov/cnstra-kotlin")
